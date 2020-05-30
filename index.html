@@ -66,7 +66,7 @@
 
       <div id="Photo_Submission_Form"><p>Submit your rare Jacob and Peter's here!</p><p>
         <form action="/submit-jacob-photo" method="POST"> <!-- form submission route and method -->
-          <input type="text" placeholder="JRM photo URL" required>
+          <input type="text" id="text" name="text" placeholder="JRM photo URL" required>
           <label><input type="radio" id="indoor-outdoor" name="indoor-outdoor"> Stationary</label> <!-- name = which key to pass in to get value for this field--> 
           <label><input type="radio" id="indoor-outdoor" name="indoor-outdoor"> Action</label>
           <button type="submit">Submit</button>
